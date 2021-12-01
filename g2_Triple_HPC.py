@@ -13,7 +13,6 @@ The inputs for the user are:
     data_path: path to timestamps file from qutau
 To improve speed, the g2 is prepared using collections.Counter and also for repeated runs the script implements pickle saving for the coincidence counter when all numbers are equal, this works mainly for adjusting bin number in histogram.
 """ 
-from typing_extensions import final
 import numpy as np
 import matplotlib.pylab as plt
 import pandas as pd
