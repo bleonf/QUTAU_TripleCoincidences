@@ -4,6 +4,7 @@ Script to generate triple coincidence g2 correlation function for single photon 
 
 Generation of triple correlation function from timestamps file obained from qutools qutau module
 The inputs for the user are:
+
     Test: True if the user wants to generate a simple test data generated randomly (no correlation)
     fig:  True if the user wants to save the histogram
     cluster: True if program is running on machine with multiprocessing capabilities
